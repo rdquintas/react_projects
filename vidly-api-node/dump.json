@@ -1,0 +1,158 @@
+{
+  "date": "Fri Jun 24 2022 15:37:38 GMT+0100 (Hora de verão da Europa Ocidental)",
+  "error": {},
+  "exception": true,
+  "level": "error",
+  "message": "uncaughtException: The provided mongoose instance is invalid\nError: The provided mongoose instance is invalid\n    at Object.init (C:\\00RICARDO\\ZRQ\\Wisdom\\React Curso\\Code\\vidly-api-node\\node_modules\\fawn\\lib\\fawn.js:30:15)\n    at Object.<anonymous> (C:\\00RICARDO\\ZRQ\\Wisdom\\React Curso\\Code\\vidly-api-node\\routes\\rentals.js:10:6)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:93:18)\n    at Object.<anonymous> (C:\\00RICARDO\\ZRQ\\Wisdom\\React Curso\\Code\\vidly-api-node\\startup\\routes.js:5:17)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:93:18)\n    at Object.<anonymous> (C:\\00RICARDO\\ZRQ\\Wisdom\\React Curso\\Code\\vidly-api-node\\index.js:8:1)",
+  "os": { "loadavg": [0, 0, 0], "uptime": 85095 },
+  "process": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\00RICARDO\\ZRQ\\Wisdom\\React Curso\\Code\\vidly-api-node\\index.js"
+    ],
+    "cwd": "C:\\00RICARDO\\ZRQ\\Wisdom\\React Curso\\Code\\vidly-api-node",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "gid": null,
+    "memoryUsage": {
+      "arrayBuffers": 19034539,
+      "external": 20758489,
+      "heapTotal": 56922112,
+      "heapUsed": 31607224,
+      "rss": 71860224
+    },
+    "pid": 5168,
+    "uid": null,
+    "version": "v14.18.1"
+  },
+  "stack": "Error: The provided mongoose instance is invalid\n    at Object.init (C:\\00RICARDO\\ZRQ\\Wisdom\\React Curso\\Code\\vidly-api-node\\node_modules\\fawn\\lib\\fawn.js:30:15)\n    at Object.<anonymous> (C:\\00RICARDO\\ZRQ\\Wisdom\\React Curso\\Code\\vidly-api-node\\routes\\rentals.js:10:6)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:93:18)\n    at Object.<anonymous> (C:\\00RICARDO\\ZRQ\\Wisdom\\React Curso\\Code\\vidly-api-node\\startup\\routes.js:5:17)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:93:18)\n    at Object.<anonymous> (C:\\00RICARDO\\ZRQ\\Wisdom\\React Curso\\Code\\vidly-api-node\\index.js:8:1)",
+  "trace": [
+    {
+      "column": 15,
+      "file": "C:\\00RICARDO\\ZRQ\\Wisdom\\React Curso\\Code\\vidly-api-node\\node_modules\\fawn\\lib\\fawn.js",
+      "function": "Object.init",
+      "line": 30,
+      "method": "init",
+      "native": false
+    },
+    {
+      "column": 6,
+      "file": "C:\\00RICARDO\\ZRQ\\Wisdom\\React Curso\\Code\\vidly-api-node\\routes\\rentals.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "internal/modules/cjs/loader.js",
+      "function": "Module._compile",
+      "line": 1085,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "internal/modules/cjs/loader.js",
+      "function": "Module._extensions..js",
+      "line": 1114,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "internal/modules/cjs/loader.js",
+      "function": "Module.load",
+      "line": 950,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "internal/modules/cjs/loader.js",
+      "function": "Module._load",
+      "line": 790,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "internal/modules/cjs/loader.js",
+      "function": "Module.require",
+      "line": 974,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "internal/modules/cjs/helpers.js",
+      "function": "require",
+      "line": 93,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "C:\\00RICARDO\\ZRQ\\Wisdom\\React Curso\\Code\\vidly-api-node\\startup\\routes.js",
+      "function": null,
+      "line": 5,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "internal/modules/cjs/loader.js",
+      "function": "Module._compile",
+      "line": 1085,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "internal/modules/cjs/loader.js",
+      "function": "Module._extensions..js",
+      "line": 1114,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "internal/modules/cjs/loader.js",
+      "function": "Module.load",
+      "line": 950,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "internal/modules/cjs/loader.js",
+      "function": "Module._load",
+      "line": 790,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "internal/modules/cjs/loader.js",
+      "function": "Module.require",
+      "line": 974,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "internal/modules/cjs/helpers.js",
+      "function": "require",
+      "line": 93,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 1,
+      "file": "C:\\00RICARDO\\ZRQ\\Wisdom\\React Curso\\Code\\vidly-api-node\\index.js",
+      "function": null,
+      "line": 8,
+      "method": null,
+      "native": false
+    }
+  ]
+}
